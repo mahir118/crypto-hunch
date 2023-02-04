@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav input,h3,button {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+input {
+    border: 0px;
+}
+
+#search {
+    margin-left: 38px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 0px 150px 150px 0px;
+    border: 2px solid;
+}
+
+
+#logo {
+    position: absolute;
+    margin-top: 2px;
+    height: 2.225em;
+    width: 2.5em;
+    background-color: #C3E5EB;
+    border-radius: 150px 0px 0px 150px;
+}
+img {
+    position: relative;
+    height: 1em;
+    padding-top: 25%;
+    padding-left: 40%;  
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#search_box {
+    padding-left: 20px;
+}
+
+h3 {
+    color: white;
+    margin-left: 120px;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+h3:hover {
+    color: gold;
+}
+
+#nav_buttons button{
+    border: 0px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+#nav_buttons button:hover {
+    color: #C3E5EB;
+}
+
+#contact {
+    margin-right: 50px;
+}
+
+#cards div{
+    background-color: #C3E5EB;
+    display: inline-block;
+    width: 287px;
+    height: 256px;
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 2em;
+    border-radius: 28px;
+    box-shadow: 2.5px 5px 10px grey;
+    transition: 0.2s;
+}
+
+#cards div:hover {
+    background-color: rgb(87, 86, 86);
+    color: white;
+}
+
+#cards {
+    margin-left: 6%;
+}
+
+#cards img {
+    height: 120px;
+    width: 120px;
+    margin-top: -60px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+    /* object-fit: cover; */
+}
+
+#cards p {
+    text-align: center;
+    margin-top: 20px;
+    /* font-family: 'Share Tech Mono', monospace; */
+    font-family: 'Share Tech', sans-serif;
+}
+
+#name {
+    margin-top: 20px;
+}
+
+#price {
+    margin-top: 60px;
+}
+
+#dogecoin {
+    margin-bottom: 5em;
+}
+
+#cat {   
+    height: 300px;
+    width: 300px;
+    margin-top: -250px;
+    margin-left: 20px;
+    display: none;
+}
+
+#oops {
+    color: black;
+    margin-left: 300px;
+    display: none;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+section div {
+    animation: transitionIn 0.75s;
+}
