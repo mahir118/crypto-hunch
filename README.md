@@ -8,11 +8,11 @@ CryptoHunch is a user-friendly cryptocurrency price tracker that I developed as 
 
 ## Screenshots
 
-![A screenshot of the homepage of CryptoHunch]<img width="1425" alt="Screenshot 2023-08-26 at 4 53 18 PM" src="https://github.com/mahir-anand/crypto-hunch/assets/104747526/4652ec8f-2d00-4d39-a510-072ce8c2137f">
+![A screenshot of the homepage of CryptoHunch](<img width="1425" alt="Screenshot 2023-08-26 at 4 53 18 PM" src="https://github.com/mahir-anand/crypto-hunch/assets/104747526/4652ec8f-2d00-4d39-a510-072ce8c2137f">)
 
-![A screenshot of CryptoHunch when searched for a cryptocurrency 'Solana']<img width="1440" alt="Screenshot 2023-08-26 at 4 53 43 PM" src="https://github.com/mahir-anand/crypto-hunch/assets/104747526/b1ac16ba-e3ba-4373-96c5-e6551a51ec8f">
+![A screenshot of CryptoHunch when searched for a cryptocurrency 'Solana'](<img width="1440" alt="Screenshot 2023-08-26 at 4 53 43 PM" src="https://github.com/mahir-anand/crypto-hunch/assets/104747526/b1ac16ba-e3ba-4373-96c5-e6551a51ec8f">)
 
-![A screenshot of CryptoHunch when searched for a non-listed cryptocurrency]<img width="1440" alt="Screenshot 2023-08-26 at 5 00 06 PM" src="https://github.com/mahir-anand/crypto-hunch/assets/104747526/af5a5f8d-0b8e-4346-a14a-b025b678b37a">
+![A screenshot of CryptoHunch when searched for a non-listed cryptocurrency](<img width="1440" alt="Screenshot 2023-08-26 at 5 00 06 PM" src="https://github.com/mahir-anand/crypto-hunch/assets/104747526/af5a5f8d-0b8e-4346-a14a-b025b678b37a">)
 
 ### How to Use
 
