@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CryptoHunch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <title>CryptoHunch</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    
+    <nav>
+
+        <div id="search_box">
+            <div id="logo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAA5pJREFUaEO9WWuaIyEIxJNtcrJNTpbsybIftq2IPO3M5N9kEKgCCzUFEp8CAJ+E/Z5pLgpam5+cO8VV0EnQbAriAvAA4v9p4J0kIjE0mzKHD7rCVZ/faCc/n7UCOQpvAPCXhMG/8fNulfnX9szj+HqjVk4+HUC3i7H7AoAj2TjgJwA0IDKzcVdjvbEHRHeYAGU8BmAmRQVCSXTlrhlnNvFg3W/N2WLlAlvsPvN4CvRhHK1GBMDZ52d/0+RqrwMAstp7v7XXaV8rpiSEIE4fE2gXQKgCh5E0uzAoJr0EV/hbW68BLgD3K8PRU6FXAbixAHP5XaomYiUgrJ1SwlArq/WrFOzYgLmkeQTdr7e3hLjWHuCVdWXQis8UpgsC+b64ytMDDCQaAImlYetWIKQkXNXWVhIY4aG1Foqz74KhWUzGqFIIghnQoeE7ZwDqApn92IT2OZtz4lVQZVUTYqmFGoAeabv3Xf4KvODTjiRjjpABpwrMtBs4a40VG8CanJ2uYs/b6A1Q7plzrrQHOCtHWV06bQ2kKkSO4gIAesTwdPVoLPKpYfgGtqRWiRCvT1kDpuJJxmkAYnHim57FK4jJF4Nm0QGQEsst5Fdzx0KR0oCrRpBUgYS0BQIRpgReuWSHhll12RiPADCcXtzZxw2NXpCeAOUxWsif6BKAtDJkYRB7Z+LvAcAC8Y2F2jyd/eNJH80qvGLM7Pdc/aTpVNYkK3jQisMQDpKEpOpna+JbmsvLK+8FDUOXUXEmPD78cWCZSTEltQDUErPwjKWNCqwbFzM12bei2FNvPWy5wURhHRloLxuB6SvDMBb2BS+AchOmY2dNm8RECoSXjWnVVv+3cWC3QbvU84sHJZo+qZxKNT2p9Fe89dzF/Zgvd1J1WQVMMN9+2CLvTD1uuhKB3ptws8m5sYkLPOFTJ/By82veKoh1GqT3wFow4kJ7qLIOR9JjmOYnVAnMp1dgg0tM9uzZPy1z/ryO+/gJBd7GCVl7MA6D4Bea+BHzquW4M2xXIrsH2IkgUrfwzSYBYsTdBqCRH4FkrJWOGGhuvmLP/lIZhNn1m63HrfeBdkeoXz4LAAJTh7zvXLVIoT28GJgFlUMBeFhX5K+3kHMW0slauUBFE3/8oE72AGwQvw3M6Q8RwLfyY5J1oVXb0rFP+g/VGxXYgLexJFoxtwIU9LqZWGZGolkMdtyuB+LT4qVSZxPNBjv8/+AgG9zMyv1TwP4DMPdDQ+NocOgAAAAASUVORK5CYII="/>
+            </div>
+            <form id="form">
+                <input id="search" type="text" placeholder="Search Coins">
+            </form>
+        </div>
+
+        <h3>CryptoHunch</h3>
+
+        <section id="nav_buttons">
+            <button> News </button>
+            <button> Set Alerts </button>
+            <button id="contact"> Log Out </button>
+        </section>
+    </nav>
+
+    <section id="cards">
+
+        <div id = 'bitcoin'>
+            <p id="name">Bitcoin (BTC)</p>
+            <img src="bitcoin-btc-logo.png">
+            <p id="btc">Price</p>
+        </div>
+
+        <div id = 'ethereum'>
+            <p id="name">Ethereum (ETH)</p>
+            <img src="ethereum-eth.svg">
+            <p id="eth">Price</p>
+        </div>
+
+        <div id = 'solana'>
+            <p id="name">Solana (SOL)</p>
+            <img src="solana-sol-logo.png" alt="">
+            <p id="sol">Price</p>
+        </div>
+
+        <div id = 'tether'>
+            <p id="name">Tether (USDT)</p>
+            <img src="tether-usdt-logo.png" alt="">
+            <p id="usdt">Price</p>
+        </div>
+
+        <div id = 'binance'>
+            <p id="name">Binance Coin (BNB)</p>
+            <img src="bnb-bnb-logo.png" alt="">
+            <p id="bnb">Price</p>
+        </div>
+
+        <div id = 'litecoin'>
+            <p id="name">Litecoin (LTC)</p>
+            <img src="litecoin-ltc-logo.png" alt="">
+            <p id="lite">Price</p>
+        </div>
+
+       
+
+        <div id = 'basic attention token'>
+            <p id="name">Basic Attention Token (BAT)</p>
+            <img src="basic-attention-token-bat-logo.png" alt="">
+            <p id="bat">Price</p>
+        </div>
+
+        <div id = "wazirx">
+            <p id="name">WazirX Token (WRX)</p>
+            <img src="wazirx-logo-rounded.9bff9f42.png" alt="">
+            <p id="wrx">Price</p>
+        </div>
+
+        <div id = 'dogecoin'>
+            <p id="name">Dogecoin (DOGE)</p>
+            <img src="dogecoin-doge-logo.png" alt="">
+            <p id="doge">Price</p>
+        </div>
+
+    </section>
+
+    <div id ='noSearchResult'>
+        <img src="CAT.png" alt="A Tech Cat" id ='cat'>
+        <h3 id ='oops'>Oops! I couldn't find a matching result. Please try again!</h3>
+    </div>
+
+    <script src="CryptoHunch.js"></script>
+</body>
+</html>
